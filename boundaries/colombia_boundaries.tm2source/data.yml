@@ -1,0 +1,44 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  saveCenter: true
+attribution: ''
+center: 
+  - -73.45458984375
+  - 4.105369348495178
+  - 6
+description: ''
+Layer: 
+  - id: admin_3
+    Datasource: 
+      file: /Users/luis/Documents/Programming/colombia_mapper/boundaries/geojson/admin_3.geojson
+      layer: OGRGeoJSON
+      type: ogr
+    description: Admin 3 Boundaries
+    fields: 
+      CODANE: String
+      CODANEDEP: String
+      DEPARTAMEN: String
+      LAT: Number
+      LON: Number
+      MUNICIPIO: String
+      OBJECTID: Number
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: admin_2
+    Datasource: 
+      file: /Users/luis/Documents/Programming/colombia_mapper/boundaries/geojson/admin_2.geojson
+      layer: OGRGeoJSON
+      type: ogr
+    description: Admin 2 boundaries
+    fields: 
+      CODANEDEP: String
+      DEPARTAMEN: String
+      OBJECTID: Number
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 14
+minzoom: 0
+name: ''
