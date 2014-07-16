@@ -19,3 +19,6 @@ ogr2ogr -f GeoJSON -t_srs crs:84 admin_3.geojson ADM_Municipios.shp
 Data
 ----
 Admin 2 boundaries can be found in the data folder. Admin 3 are too big for GitHub, but are available [here](http://ec2-54-86-59-119.compute-1.amazonaws.com/owncloud/public.php?service=files&t=d47e7b44039c405b4425a82578385fb1).
+
+
+On the geoJSON file, **CODANEDEP** == p-code from the national government ([Divipola](http://www.dane.gov.co/Divipola/)).
